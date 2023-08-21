@@ -1,0 +1,203 @@
+
+html{
+    font-size: 62.5%;
+}
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+body{color: aliceblue;
+    text-decoration: aliceblue;
+    font-style: italic;
+}
+.fondo{
+   
+ background-image: url("../imagenes/telon-fondo-textura-tela-tenida-oscura.jpg"); 
+    background-position: center;
+ background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+header  {
+    background-color: rgba(252, 252, 252, 0.637);
+    
+    
+
+    
+   
+
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logobarra {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    
+    
+
+}
+    
+
+
+ul{
+    
+    
+    list-style-type: none;
+    
+}
+ul li{
+    
+    
+    display: inline-block;
+    
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    
+}
+.imgr{
+    border-radius: 5%;
+    border-style: solid;
+    margin: auto;
+    width: 35%;
+}
+.historia{
+    display: block;
+    margin: auto;
+}
+
+a{
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    
+    
+}
+.img1{
+    display: block;
+    width: 35%;
+    height: 35%;
+    margin: auto;
+    
+}
+.img2{
+    display: block;
+    width: 35%;
+    height: 35%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+p{
+    display: inline;
+   
+}
+.noticia1{
+    margin: 20px 30% 20px 30%;
+    text-align: center;
+
+    
+    
+}
+
+footer{
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.637) ;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.facebook{
+    height: 2%;
+    width: 2%;
+}
+.instagram{
+    height: 2%;
+    width: 2%;
+}
+.twitter{
+    height: 2%;
+    width: 2%;
+}
+.youtube{
+    height: 2%;
+    width: 2%;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 30%;
+    margin-top: 5%;
+
+}
+.corporativo{
+    display: grid;
+}
+
+.grid-item1{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item2{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-self: left;
+}
+
+footer{
+    margin-top: 300px;
+}
+.catalogo-1{
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    
+    
+
+}
+.formulario{
+    border-style: solid;
+    border-radius: 5%;
+    border-color: aliceblue;
+    padding: 20%;
+}
